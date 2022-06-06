@@ -1,0 +1,7 @@
+.env
+node_modules
+dist
+src/index.js
+temp/.xlsx
+*.xlsx
+lib
