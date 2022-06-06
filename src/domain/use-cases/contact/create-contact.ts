@@ -1,4 +1,4 @@
-import { Contact } from "../../entities/contact";
+import { Contact } from "../../interfaces/entities/contact";
 import { ContactRepository } from "../../interfaces/repository/contact-repository";
 import { CreateContactUseCase } from "../../interfaces/use-cases/CreateContact";
 

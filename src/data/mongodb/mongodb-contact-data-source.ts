@@ -1,6 +1,6 @@
 import { ContactDataSource } from "../interfaces/contact-data-source";
 import { DatabaseWrapper } from "../interfaces/database";
-import { Contact } from "../../domain/entities/contact";
+import { Contact } from "../../domain/interfaces/entities/contact";
 
 export class MongoDBContactDataSource implements ContactDataSource {
 

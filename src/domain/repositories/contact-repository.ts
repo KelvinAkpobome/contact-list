@@ -1,5 +1,5 @@
 import { ContactDataSource } from "../../data/interfaces/contact-data-source";
-import { Contact } from "../entities/contact";
+import { Contact } from "../interfaces/entities/contact";
 import { ContactRepository } from "../interfaces/repository/contact-repository";
 
 export class ContactRepositoryImpl implements ContactRepository {
